@@ -1,7 +1,7 @@
 describe("The string calculator", function(){
 
     it("accepts a string and outputs a number", function() {
-        expect(typeof calculate("")).toBe("number");
+      expect(typeof calculate("")).toBe("number");
     });
 
     it("calculate '1+1' and returns 2", function() {
